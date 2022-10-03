@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  @font-face {
+    font-family: airbnb;
+    src: url("../asset/font/airbnb");
+  }
+}
+
+nav {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+nav li {
+  margin-right: 48px;
+  margin-top: 37px;
+  margin-left: 48px;
+}
+
+nav li a {
+  color: #2E266F;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  border-bottom: 3px solid #2E266F;
+}
+
+.profile-section {
+  margin-top: 84px;
+}
+
+img.photo-profile {
+  width: 120px;
+  height: 120px;
+}
+
+img.edit-button {
+  margin-bottom: -100px;
+  margin-left: -25px;
+}
+
+button.change-profile-button-1 {
+  border: none;
+  border-radius: 15px;
+  background-color: #E7E7E7;
+  width: 239px;
+  height: 40px;
+  margin-top: 25px;
+}
+
+button.change-profile-button-2 {
+  border: none;
+  border-radius: 15px;
+  background-color: #E7E7E7;
+  width: 239px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+button a {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #3F3A3A;
+}
+
+.name h1 {
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.recipe-content-title ul {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.border {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 104%;
+  z-index: 9;
+}
+
+ul li.title-recipe{
+  list-style: none;
+  display: inline-block;
+}
+
+ul li.title-recipe a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #3F3A3A;
+  margin-right: 80px;
+}
+
+.image-row {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+div.recipe-images {
+  margin-left: 70px;
+}
+
+.image-row img {
+  width: 300px;
+  height: 220px;
+}
+
+p.p-1 {
+  margin-left: 80px;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-bottom: -70px;
+}
+
+p.p-2 {
+  margin-left: 80px;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-bottom: -74px;
+}
+
+footer {
+  background-color: #EFC81A;
+  margin-top: 100px;
+}
+
+.foot-content {
+  padding-top: 150px;
+}
+
+footer .foot-content h1{
+  font-weight: 350;
+  font-size: 50px;
+}
+
+footer .foot-content p {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.foot-nav {
+  margin-top: 100px;
+  padding-bottom: 60px;
+}
+
+.foot-nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+.foot-nav li a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  margin-right: 30px;
+  color: #707070;
+}

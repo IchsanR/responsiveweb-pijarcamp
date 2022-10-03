@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Profile</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+			crossorigin="anonymous" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container-fluid row">
+			<section>
+				<nav class="navbar navbar-expand-lg">
+					<div class="container-fluid">
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarText"
+							aria-controls="navbarText"
+							aria-expanded="false"
+							aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarText">
+							<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+								<li class="nav-item">
+									<a class="list" aria-current="page" href="../home/home.html"
+										>Home</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="list" href="../add/addrecipe.html">Add Recipe</a>
+								</li>
+								<li class="nav-item">
+									<a class="list active" href="#">Profile</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</section>
+			<section
+				class="profile-content container-fluid row position-relative text-center">
+				<div class="profile-section position-relative">
+					<img
+						src="../asset/images/Photo Profile.png"
+						alt=""
+						class="photo-profile" />
+					<img
+						src="../asset/images/edit-3.png"
+						alt=""
+						class="edit-button"
+						data-bs-toggle="collapse"
+						data-bs-target="#profile-button"
+						aria-expanded="false"
+						aria-controls="profile-button"
+						type="button" />
+				</div>
+				<div class="buttons collapse text-center" id="profile-button">
+					<button type="button" class="change-profile-button-1">
+						<a href=""> Change Photo Profile </a>
+					</button>
+				</div>
+				<div class="buttons collapse text-center" id="profile-button">
+					<button type="button" class="change-profile-button-2">
+						<a href="../reset/newpassword.html"> Change Password </a>
+					</button>
+				</div>
+				<div class="name">
+					<h1>Garneta Sharina</h1>
+				</div>
+			</section>
+			<section class="recipe-content row">
+				<div class="recipe-content-title">
+					<ul class="me-auto mb-2 mb-lg-0 col-10">
+						<li class="title-recipe">
+							<a
+								data-bs-toggle="collapse"
+								data-bs-target="#myRecipe"
+								role="button"
+								aria-expanded="true"
+								aria-controls="myRecipe"
+								>My Recipe</a
+							>
+						</li>
+						<li class="title-recipe">
+							<a
+								data-bs-toggle="collapse"
+								data-bs-target="#savedRecipe"
+								role="button"
+								aria-expanded="false"
+								aria-controls="savedRecipe"
+								>Saved Recipe</a
+							>
+						</li>
+						<li class="title-recipe">
+							<a
+								data-bs-toggle="collapse"
+								data-bs-target="#likedRecipe"
+								role="button"
+								aria-expanded="false"
+								aria-controls="likedRecipe"
+								>Liked Recipe</a
+							>
+						</li>
+					</ul>
+					<div class="border position-relative"></div>
+					<div class="recipe-images">
+						<div class="image-row col collapse" id="myRecipe">
+							<a href="">
+								<img src="../asset/images/Image-1.png" alt="" class="" />
+								<p class="position-absolute p-1 bottom-0">Bomb<br />Chicken</p>
+							</a>
+						</div>
+						<div class="image-row col collapse" id="myRecipe">
+							<a href="">
+								<img src="../asset/images/Image-2.png" alt="" class="" />
+								<p class="position-absolute p-2 bottom-0">
+									Bananas<br />Pancake
+								</p>
+							</a>
+						</div>
+						<div class="image-row col collapse" id="savedRecipe">
+							<a href="">
+								<img src="../asset/images/Image-1.png" alt="" class="" />
+								<p class="position-absolute p-1 bottom-0">Bomb<br />Chicken</p>
+							</a>
+						</div>
+						<div class="image-row col collapse" id="savedRecipe">
+							<a href="">
+								<img src="../asset/images/Image-2.png" alt="" />
+								<p class="position-absolute p-2 bottom-0">
+									Bananas<br />Pancake
+								</p>
+							</a>
+						</div>
+						<div class="image-row col collapse" id="likedRecipe">
+							<a href="">
+								<img src="../asset/images/Image-1.png" alt="" class="" />
+								<p class="position-absolute p-1 bottom-0">Bomb<br />Chicken</p>
+							</a>
+						</div>
+						<div class="image-row col collapse" id="likedRecipe">
+							<a href="">
+								<img src="../asset/images/Image-2.png" alt="" />
+								<p class="position-absolute p-2 bottom-0">
+									Bananas<br />Pancake
+								</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer class="container-fluid mw-100">
+			<div class="foot-content position-relative text-center">
+				<h1>Eat, Cook, Repeat</h1>
+				<p>Share your best recipe by uploading here !</p>
+			</div>
+			<div class="foot-nav">
+				<ul class="text-center">
+					<li><a href="">Product</a></li>
+					<li><a href="">Company</a></li>
+					<li><a href="">Learn More</a></li>
+					<li><a href="">Get In Touch</a></li>
+				</ul>
+				<img src="../asset/images/Copyright.png" alt="" class="float-end" />
+			</div>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+			integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+			crossorigin="anonymous"></script>
+	</body>
+</html>

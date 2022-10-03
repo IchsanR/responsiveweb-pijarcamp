@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Add Recipe</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+			crossorigin="anonymous" />
+	</head>
+	<body>
+		<div class="container-fluid row">
+			<section>
+				<nav class="navbar navbar-expand-lg">
+					<div class="container-fluid">
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarText"
+							aria-controls="navbarText"
+							aria-expanded="false"
+							aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarText">
+							<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+								<li class="nav-item">
+									<a class="list" aria-current="page" href="../home/home.html"
+										>Home</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="list active" href="../add/addrecipe.html"
+										>Add Recipe</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="list" href="../profile/profile.html">Profile</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</section>
+			<section class="main container-fluid">
+				<div class="row justify-content-center">
+					<div class="add-image cols">
+						<div class="position-relative top-50 start-50 translate-middle">
+							<img
+								src="../asset/images/image.png"
+								alt=""
+								class="img-fluid mx-auto d-block add-image" />
+							<p class="desc text-center">Add photo</p>
+						</div>
+					</div>
+					<input
+						class="form-control cols form"
+						type="text"
+						placeholder="Title"
+						aria-label="default input example" />
+				</div>
+				<div class="row justify-content-center">
+					<textarea
+						class="form-control cols text-area"
+						id="exampleFormControlTextarea1"
+						rows="3"
+						placeholder="Ingredients"></textarea>
+				</div>
+				<div class="row justify-content-center">
+					<input
+						class="form-control cols form"
+						type="text"
+						placeholder="Video"
+						aria-label="default input example" />
+				</div>
+				<div class="row justify-content-center">
+					<div class="col position-relative text-center">
+						<button type="submit" class="tbl">Post</button>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer class="container-fluid mw-100">
+			<div class="foot-content position-relative text-center">
+				<h1>Eat, Cook, Repeat</h1>
+				<p>Share your best recipe by uploading here !</p>
+			</div>
+			<div class="foot-nav">
+				<ul class="text-center">
+					<li><a href="">Product</a></li>
+					<li><a href="">Company</a></li>
+					<li><a href="">Learn More</a></li>
+					<li><a href="">Get In Touch</a></li>
+				</ul>
+				<img src="../asset/images/Copyright.png" alt="" class="float-end" />
+			</div>
+		</footer>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+			crossorigin="anonymous"></script>
+	</body>
+</html>
